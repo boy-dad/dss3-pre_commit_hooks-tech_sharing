@@ -1,0 +1,12 @@
+sources:
+  holidays: /Workspace/Repos/reynaldo.tugade@aboitiz.com/dss3-cobu-renaissance/data/holidays.parquet
+  rtd_regional_summaries: /Workspace/Repos/reynaldo.tugade@aboitiz.com/dss3-cobu-renaissance/data/rtd-regional-summaries.parquet
+
+dataset:
+  num_workers: 4
+
+model:
+  model_root: /Workspace/Repos/reynaldo.tugade@aboitiz.com/dss3-cobu-renaissance/models
+
+mlflow:
+  tracking_uri: file:////Users/reynaldo.tugade@aboitiz.com

@@ -1,0 +1,12 @@
+sources:
+  holidays: D:\Projects\renaissance\data\processed\holidays.parquet
+  rtd_regional_summaries: D:\Projects\renaissance\data\processed\rtd-regional-summaries.parquet
+
+dataset:
+  num_workers: 12
+
+model:
+  model_root: D:\Projects\renaissance\models
+
+mlflow:
+  tracking_uri: http://127.0.0.1:5000/

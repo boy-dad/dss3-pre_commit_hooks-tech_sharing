@@ -1,0 +1,18 @@
+[tool.black]
+line_length = 120
+
+[tool.isort]
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 120
+multi_line_output = 1
+overwrite_in_place = true
+use_parentheses = true
+verbose = true
+known_third_party = ["mlflow", "pandas", "pytorch_forecasting", "pytorch_lightning", "torch"]
+
+[tool.flake8]
+max_line_length = 120
+
+[tool.pylintrc]
+max_line_length = 120
